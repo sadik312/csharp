@@ -11,6 +11,7 @@ namespace GradeBookApp
         public GradeBook(string name) // constructor
         {
             _name = name;
+            grades = new List<Double>(); // initialises `grades` object
         }
 
         public string Name
@@ -35,6 +36,12 @@ namespace GradeBookApp
             }
             return grades.Count > 0 ? sum / grades.Count : 0.0 ; // returns avg 
 
+        }
+
+        // static method will do the same thing no matter what object calls it
+        public static void ShowStaticInfo()
+        {
+            System.Console.WriteLine("This is a Gradebook");
         }
     }
 }
