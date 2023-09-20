@@ -6,12 +6,19 @@ namespace GradeBookApp
     public class GradeBook
     {
         private string _name; // common practive to denote private var with _ in front
-        private List<double> grade;
+        private List<double> grades;
 
+        // overloading - there are 2 same construtors but take in different parameters
         public GradeBook(string name) // constructor
         {
             _name = name;
             grades = new List<Double>(); // initialises `grades` object
+        }
+
+        public GradeBook(string name, List<double> grades)
+        {
+            _name = name;
+            this.grades = grades;
         }
 
         public string Name
