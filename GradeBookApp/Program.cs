@@ -23,6 +23,7 @@ namespace GradeBookApp
             double compAverage = compBook.GetAverageGrade();
 
             Console.WriteLine($"The avarage grade for maths is: {mathAverage}");
+            Console.WriteLine(compBook.ToString);
         }
     }
 }
