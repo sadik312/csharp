@@ -33,6 +33,7 @@ namespace GradeBookApp
             {
                 sum += grade;
             }
+            return grades.Count > 0 ? sum / grades.Count : 0.0 ; // returns avg 
 
         }
     }
