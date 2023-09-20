@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+
+namespace shopmvc.Models; // new v of C# allows to omit `{}` from namespace  
 public class Product
 {
     public int Id { get; set; }
