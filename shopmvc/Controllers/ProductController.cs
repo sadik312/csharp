@@ -1,7 +1,7 @@
-using Microsoft.AspNetCore;
 using shopmvc.Models;
 using shopmvc.Data;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace shopmvc.Controllers;
 public class ProductConroller : Controller

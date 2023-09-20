@@ -1,6 +1,5 @@
 @model IEnumerable<ProductModel> // way of representing db object
-@
-{
+@{
     viewData["Title"] = "Products"
 }
 
@@ -19,9 +18,9 @@
             @foreach(var product in Model)
             {
                 <tr>
-                    <td>@product.Name</td>
-                    <td>@product.QTY</td>
-                    <td>@product.cost</td>
+                    <td>@product.ProductName</td>
+                    <td>@product.ProductQTY</td>
+                    <td>@product.ProductCost</td>
                 </tr>
             }
         </tbody>
