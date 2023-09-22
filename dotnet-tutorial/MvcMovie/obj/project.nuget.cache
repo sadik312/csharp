@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "U8V3q72TOMKUxDF4Gk6dlNouzEB+/JIoJKS1CtCSjtXUej6iFBSNe8ZYiEAbqccmyATr2eh0BuoCG138Xe6YIQ==",
+  "success": true,
+  "projectFilePath": "/home/sadik/Documents/projects/csharp/dotnet-tutorial/MvcMovie/MvcMovie.csproj",
+  "expectedPackageFiles": [
+    "/home/sadik/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.11/microsoft.aspnetcore.app.ref.7.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}
