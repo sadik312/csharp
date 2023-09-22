@@ -15,3 +15,12 @@ public class HelloWorldController : Controller{
         return "This is the Welcome action method";
     }
 }
+
+/*
+Every public method in controller is callable as an HTTP endpoint
+First method: invoked by appending /HelloWorld/ to base URL
+Second method: invoked by appending /HelloWorld/Welcome/ to URL
+MVC invokes controller classes in this format:
+/[Controller]/[ActionName]/[Parameters]
+Routing format is set in Program.cs
+*/
