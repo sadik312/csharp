@@ -5,9 +5,9 @@ namespace MvcMovie.Controllers;
 
 public class HelloWorldController : Controller{
     // GET: /HelloWorld/
-    public string Index()
+    public IActionResult Index()
     {
-        return "This is the default action";
+        return View();
     }
     // GET: /HelloWorld/Welcome/
     public string Welcome(string name, int numTimes=1)
