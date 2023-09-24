@@ -1,0 +1,7 @@
+// Binaries
+/bin/
+/obj/
+
+// VSCod workspae & user files
+.vscode/
+.idea/
