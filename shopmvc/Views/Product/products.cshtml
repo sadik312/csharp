@@ -1,0 +1,28 @@
+@model IEnumerable<ProductModel> // way of representing db object
+@{
+    viewData["Title"] = "Products"
+}
+
+<div class="text-center">
+    <h1>Products</h1>
+
+    <table class="table table-hover table-striped">
+        <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>QTY</th>
+                <th>Cost</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var product in Model)
+            {
+                <tr>
+                    <td>@product.ProductName</td>
+                    <td>@product.ProductQTY</td>
+                    <td>@product.ProductCost</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
