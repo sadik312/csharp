@@ -4,3 +4,7 @@ https://learn.microsoft.com/en-gb/aspnet/core/tutorials/first-mvc-app/adding-con
 1. Create MVC project
     - `mkdir <projectName>`
     - `dotnet new mvc -o <projectName>`
+
+What is Dependency Injection
+- design pattern
+- technique for achieving Inversion of Control (IoC) between classes and their dependencies
