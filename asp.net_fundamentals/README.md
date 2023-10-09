@@ -15,3 +15,7 @@
 - Make HTTP requests
 - Content root
 - Web root
+
+# Type System;
+- C# is strongly types language
+- Each variable and constant has a type as well as every expression that evaluates to a vaue
