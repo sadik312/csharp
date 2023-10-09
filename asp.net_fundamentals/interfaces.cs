@@ -16,7 +16,16 @@ public class Pig : IAnimal
     public void animalSound()
     {
         // body of animalSound() is stated here:
-        Console.WriteLine("The pig is says: oink oink");
+        Console.WriteLine("oink oink");
+    }
+}
+
+// Dog class that implements IAnimal interface
+public class Dog : IAnimal
+{
+    public void animalSound()
+    {
+        Console.WriteLine("Woof woof");
     }
 }
 
@@ -25,6 +34,13 @@ class Program
     static void Main(string[] args)
     {
         Pig pigObj = new Pig(); // create Pig object
+        Dog dogObj = new Dog(); // create Dog object
+
+        // call method for each instance
+        Console.WriteLine("Piggy says: ");
         pigObj.animalSound();
+
+        Console.WriteLine("Doggy says: ");
+        dogObj.animalSound();
     }
 }
