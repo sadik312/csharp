@@ -1,17 +1,9 @@
 // A skeleton of a C# program
 using System;
-
-// Your program starts here:
-// Console.WriteLine("Hello world!");
-
 namespace YourNamespace
 {
     class YourClass
     {
-        static void Main()
-        {
-
-        }
     }
 
     struct YourStruct
@@ -32,6 +24,15 @@ namespace YourNamespace
     {
         struct YourStruct
         {
+        }
+    }
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //Your program starts here...
+            Console.WriteLine("Hello world!");
         }
     }
 }
