@@ -1,0 +1,15 @@
+/home/sadik/Documents/projects/csharp/cs_fundamentals/bankapp/bin/Debug/net7.0/bankapp
+/home/sadik/Documents/projects/csharp/cs_fundamentals/bankapp/bin/Debug/net7.0/bankapp.deps.json
+/home/sadik/Documents/projects/csharp/cs_fundamentals/bankapp/bin/Debug/net7.0/bankapp.runtimeconfig.json
+/home/sadik/Documents/projects/csharp/cs_fundamentals/bankapp/bin/Debug/net7.0/bankapp.dll
+/home/sadik/Documents/projects/csharp/cs_fundamentals/bankapp/bin/Debug/net7.0/bankapp.pdb
+/home/sadik/Documents/projects/csharp/cs_fundamentals/bankapp/obj/Debug/net7.0/bankapp.csproj.AssemblyReference.cache
+/home/sadik/Documents/projects/csharp/cs_fundamentals/bankapp/obj/Debug/net7.0/bankapp.GeneratedMSBuildEditorConfig.editorconfig
+/home/sadik/Documents/projects/csharp/cs_fundamentals/bankapp/obj/Debug/net7.0/bankapp.AssemblyInfoInputs.cache
+/home/sadik/Documents/projects/csharp/cs_fundamentals/bankapp/obj/Debug/net7.0/bankapp.AssemblyInfo.cs
+/home/sadik/Documents/projects/csharp/cs_fundamentals/bankapp/obj/Debug/net7.0/bankapp.csproj.CoreCompileInputs.cache
+/home/sadik/Documents/projects/csharp/cs_fundamentals/bankapp/obj/Debug/net7.0/bankapp.dll
+/home/sadik/Documents/projects/csharp/cs_fundamentals/bankapp/obj/Debug/net7.0/refint/bankapp.dll
+/home/sadik/Documents/projects/csharp/cs_fundamentals/bankapp/obj/Debug/net7.0/bankapp.pdb
+/home/sadik/Documents/projects/csharp/cs_fundamentals/bankapp/obj/Debug/net7.0/bankapp.genruntimeconfig.cache
+/home/sadik/Documents/projects/csharp/cs_fundamentals/bankapp/obj/Debug/net7.0/ref/bankapp.dll
