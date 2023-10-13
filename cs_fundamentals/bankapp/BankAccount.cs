@@ -20,7 +20,7 @@ public class BankAccount
     }
     public BankAccount(string name, decimal initialBalance)
     {
-        this.Owner = name; // obj is constructed using this qualifier - it is optional
+        this.Owner = name; // obj is constructed using 'this' qualifier - it is optional
         this.Balance = initialBalance;
         Number = s_accountNumberSeed.ToString();
         s_accountNumberSeed++;
@@ -38,6 +38,10 @@ public class BankAccount
 
     public void MakeWithdrawal(decimal amount, DateTime date, string note)
     {
-
+        // Throw error is withdrawal is greater than amount available
+        if (amount > Balance)
+        {
+            throw new ArgumentOutOfRangeException(nameof(amount), "Amount of withdrawal cannot be greater than balance");
+        }
     }
 }
