@@ -5,8 +5,19 @@ public class BankAccount
     private static int s_accountNumberSeed = 1234567890; // private data member 
     public string Number { get; set; }
     public string Owner { get; set; }
-    public decimal Balance { get; set; }
 
+    public decimal Balance
+    {
+        get
+        {
+            decimal balance = 0;
+            foreach (var item in _allTransactions)
+            {
+                balance += item.Amount;
+            }
+            return balance;
+        }     
+    }
     public BankAccount(string name, decimal initialBalance)
     {
         this.Owner = name; // obj is constructed using this qualifier - it is optional
