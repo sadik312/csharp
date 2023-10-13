@@ -27,7 +27,13 @@ public class BankAccount
     }
     public void MakeDeposit(decimal amount, DateTime date, string note)
     {
-
+        // Throw error if amount of deposit isn't greater than 0
+        if (amount <= 0)
+        {
+            throw new ArgumentOutOfRangeException(nameof(amount), "Amount of desposit must be positive");
+        }
+        var deposit = new Transaction(amount, date, note);
+        _allTransaction.Add(deposit);
     }
 
     public void MakeWithdrawal(decimal amount, DateTime date, string note)
