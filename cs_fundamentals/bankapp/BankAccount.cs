@@ -38,10 +38,17 @@ public class BankAccount
 
     public void MakeWithdrawal(decimal amount, DateTime date, string note)
     {
-        // Throw error is withdrawal is greater than amount available
-        if (amount > Balance)
+        // Withdrawal has to be positive
+        if (amount <= 0)
         {
-            throw new ArgumentOutOfRangeException(nameof(amount), "Amount of withdrawal cannot be greater than balance");
+            throw new ArgumentOutOfRangeException(nameof(amount), "Amount of withdrawal must be positive");
         }
+        // Throw error is withdrawal is greater than amount available
+        if (Balance - amount < 0)
+        {
+            throw new ArgumentOutOfRangeException(nameof(amount), "Not sufficient funds for this withdrawal");
+        }
+        var withdrawal = new Transaction(-amount, date, note);
+        _allTransactions.add(withdrawal);
     }
 }
