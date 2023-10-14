@@ -1,3 +1,5 @@
+using System;
+
 namespace Classes;
 
 public class BankAccount
@@ -21,7 +23,7 @@ public class BankAccount
     public BankAccount(string name, decimal initialBalance)
     {
         this.Owner = name; // obj is constructed using 'this' qualifier - it is optional
-        this.Balance = initialBalance;
+        this.MakeDeposit(initialBalance, DateTime.Now, "Intial balance");
         Number = s_accountNumberSeed.ToString();
         s_accountNumberSeed++;
     }
